@@ -1,0 +1,14 @@
+body{
+    color: white;
+    font-family: arial;
+}
+
+.change-boules-color{
+    font-family: arial;
+      
+}
+.change-boules-color label{
+    font-size: 1.3em;
+    margin: 10px;
+    
+}

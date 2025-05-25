@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="back"> <img height="25px" src="images/back.png" alt=""></div>
+        <div class="next"> <a href="change.html"><img src="images/qr.png" alt="">  </a></div>
+    </div>
+    
+    <div class="avatar">
+        <img src="images/rbc-chameau.png" alt="">
+        <div id="bouchon" class="bouchon">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- followDiv -->
+    <div id="followDiv">
+        <!-- Les cercles à l'intérieur du rectangle -->
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    
+    
+    <div class="card card1">
+        <h3> RTC - Mensuel - Etudiant+</h3>
+        <center><p style="margin-top: 10px; margin-bottom: 6px">Période de validité</p></center>
+        <div class="periode">
+            <div>
+                <h1 style="margin: 0px;">01/08/2024</h1>
+                <center> <h4 style="margin: 0px;">12:09</h4> </center>
+            </div>
+            <div>
+                <h1 style="margin: 0px;">01/08/2024</h1>
+                <center> <h4 style="margin: 0px;">12:09</h4> </center>
+            </div>
+        </div>
+    </div>
+    <div class="card card2">
+        <center><p style="margin-top: 0px; margin-bottom: 6px">Informations de contrôle</p></center>
+        <div class="cardcomponents">
+            <img width="65px" height="65px"src="images/logo personne.png" alt="">
+            <div>
+                <center><h1 style="margin: 0px;">01/08/2024</h1>
+                 <h4 style="margin: 0px;">12:09</h4> </center>
+            </div>
+            <img width="50px" height="50px" src="images/airweb.png" alt="">
+        </div>
+        <center><h1 style="margin: 0px;">1-66ABB33C93F92</h1></center>
+    </div>
+    
+    <div class="levelbar">
+        <div class="part1"></div>
+        <div class="part2"></div>
+    </div>
+</body>
+
+<script src="scripts.js"></script>
+</html>
